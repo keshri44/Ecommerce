@@ -1,0 +1,23 @@
+{
+  "name": "shopit",
+  "version": "1.0.0",
+  "description": "full ecommerce site with mern",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT & nodemon backend/server",
+    "prod":"SET NODE_ENV=PRODUCTION & nodemon backend/server"
+  },
+  "author": "Raushan Kumar",
+  "license": "ISC",
+  "dependencies":{
+    "dotenv": "^8.2.0",
+    "express":"^4.17.1",
+    "mongoose":"^5.12.0"
+
+  },
+  "devDependencies":{
+    "nodemon": "^2.0.7"
+  }
+}
